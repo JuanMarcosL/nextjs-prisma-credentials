@@ -16,13 +16,3 @@ export default NextAuthMiddleware(nextAuthConfig);
 export const config = {
   matcher: ["/dashboard/:path*"]
 }
-
-
-// import { default as NextAuthMiddleware } from "next-auth/middleware";
-// import { default as crypto } from "crypto";
-
-// export { default } from "next-auth/middleware";
-
-// export const config = {
-//   matcher: ["/dashboard"]
-// }
